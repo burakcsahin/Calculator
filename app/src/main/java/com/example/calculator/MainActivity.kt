@@ -118,7 +118,6 @@ class MainActivity : AppCompatActivity() {
         return result
     }
 
-
     private fun parseDigitsAndOperators(): MutableList<Any> {
         val list = mutableListOf<Any>()
         var currentDigit = ""
